@@ -31,7 +31,8 @@ public class PlayerMovement : MonoBehaviour{
 
         if (Input.GetButtonDown("Crouch"))
         {
-            crouch = true;
+        crouch = true;
+
         }else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
@@ -44,6 +45,5 @@ public class PlayerMovement : MonoBehaviour{
         //Three params, movement speed, ifCrouching, ifJumping
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
-        crouch = false;
     }
 }
