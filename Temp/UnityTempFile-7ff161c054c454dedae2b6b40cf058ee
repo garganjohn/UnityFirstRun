@@ -302,4 +302,5 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/CharacterController2D.cs"
-"Assets/PlayerMM.cs"
+"Assets/PlayerMovement.cs"
+"Assets/Weapon.cs"
